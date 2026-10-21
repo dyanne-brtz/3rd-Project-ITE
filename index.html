@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dreams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="theme-toggle-container">
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+        <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+        <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+    </button>
+</div>
+
+    <header>
+        <nav class="navbar">
+            <a href="https://dyanne-brtz.github.io/1st-project-ITE/" class="logo">← Main Portfolio</a>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="projects-section">
+            <div class="projects-header">
+                <p class="welcome-text">PLACES I WANT TO SEE</p>
+                <h1>My <span>Dreams</span></h1>
+                <p class="section-description">
+                    A collection of countries and cities I dream of visiting someday. 
+                    Each place holds a different story, culture, and beauty.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <a href="japan.html" style="text-decoration: none; display: block;">
+                        <div class="project-image">
+                            <img src="japan-cover.jpg" alt="Japan Cover">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <h2>Japan</h2>
+                        <p>Cherry blossoms, temples, and the perfect mix of tradition and technology.</p>
+                        <a href="japan.html" class="project-category">Asia</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a href="switzerland.html" style="text-decoration: none; display: block;">
+                        <div class="project-image">
+                            <img src="switzerland-cover.jpg" alt="Switzerland Cover">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <h2>Switzerland</h2>
+                        <p>Snowy mountains, peaceful lakes, and beautiful scenic train rides.</p>
+                        <a href="switzerland.html" class="project-category">Europe</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a href="south-korea.html" style="text-decoration: none; display: block;">
+                        <div class="project-image">
+                            <img src="south-korea-cover.jpg" alt="South Korea Cover">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <h2>South Korea</h2>
+                        <p>Vibrant city life, delicious food, and rich pop culture.</p>
+                        <a href="south-korea.html" class="project-category">Asia</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a href="manhattan.html" style="text-decoration: none; display: block;">
+                        <div class="project-image">
+                            <img src="manhattan-cover.jpg" alt="Manhattan Cover">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <h2>Manhattan</h2>
+                        <p>The city that never sleeps—bright lights, tall buildings, and endless energy.</p>
+                        <a href="manhattan.html" class="project-category">North America</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <a href="paris.html" style="text-decoration: none; display: block;">
+                        <div class="project-image">
+                            <img src="paris-cover.jpg" alt="Paris Cover">
+                        </div>
+                    </a>
+                    <div class="project-info">
+                        <h2>Paris</h2>
+                        <p>The city of love, art, fashion, and the iconic Eiffel Tower.</p>
+                        <a href="paris.html" class="project-category">Europe</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 My Dreams</p>
+    </footer>
+
+    <script src="theme.js"></script>
+</body>
+</html>
