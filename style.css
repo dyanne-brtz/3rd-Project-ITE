@@ -250,20 +250,6 @@ body.light-mode {
     background: var(--pink);
     color: var(--black);
     transform: scale(1.1);
-}
-
-.body.light-mode .theme-toggle {
-    background: rgba(255, 255, 255, 0.7);
-    color: #a41635;
-    border-color: #a41635;
-}
-
-.view-project {
-    display: inline-block;
-    padding: 10px 16px;
-    margin-top: 8px;
-    color: #fff5f7;
-    font-size: 0.8rem;
     font-weight: bold;
     letter-spacing: 1px;
     text-decoration: none;
