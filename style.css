@@ -255,6 +255,49 @@ body.light-mode {
     text-decoration: none;
     background: #650b20;
     border: 1px solid #a41635;
+
+body.light-mode.pin-page {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)),
+        url("background-light.jpg") !important;
+    background-color: #f4f4f9 !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+body.light-mode.pin-page {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.8)),
+        url("background-light.jpg") !important;
+    background-color: #f4f4f9 !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+body.light-mode.pin-page .pin-card {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid rgba(164, 22, 53, 0.3) !important;
+    box-shadow: 0 0 35px rgba(164, 22, 53, 0.15) !important;
+}
+
+body.light-mode.pin-page .pin-card h1,
+body.light-mode.pin-page .pin-card .small-title {
+    color: #1a1a1a !important;
+}
+
+body.light-mode.pin-page .pin-card .description,
+body.light-mode.pin-page .pin-card .footer-text,
+body.light-mode.pin-page #pin-form label {
+    color: #555 !important;
+}
+
+body.light-mode.pin-page #pin-input {
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: 1px solid #a41635 !important;
+    color: #1a1a1a !important;
+}
     border-radius: 6px;
     transition: 0.3s;
 }
