@@ -227,6 +227,18 @@ body.light-mode footer { background: #fff !important; color: #555 !important; }
     width: 38px;
     height: 38px;
     border-radius: 50%;
+}
+
+.body {
+    background-image: url("background-dark.jpg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+body.light-mode {
+    background-image: url("background-light.jpg") !important;
+}
     cursor: pointer;
     display: flex;
     align-items: center;
